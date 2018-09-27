@@ -3,6 +3,9 @@ body {
   text-align: center; 
   background-image: url(../media/dsc_5571.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;   
   margin-top: 24px;  
   margin-bottom: auto; 
 }
@@ -11,10 +14,7 @@ h1 {
   font-size: 2.12em;
   text-align: center;
   color: rgb(65, 18, 47);
-  line-height: .05em;
-  padding-top: .05em;
-  padding-bottom: .05em;
-  padding-left: .45em;
+  margin: auto;
 }
 
 form{
@@ -28,7 +28,8 @@ form{
 
 p{
   font-size: 24px;
-  padding-bottom: .0em;
+  padding-bottom: -2.0em;
+  padding-top: -2.0em;
 }
 
 input{
