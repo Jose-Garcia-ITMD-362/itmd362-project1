@@ -8,26 +8,48 @@ body {
   background-attachment: fixed;   
   margin-top: 24px;  
   margin-bottom: auto; 
+  position: center;
 }
 
 h1 {
-  font-size: 2.12em;
+  font-size: 3.247em; /*major second */
   text-align: center;
   color: rgb(65, 18, 47);
   margin: auto;
 }
 
-form{
+fieldset{
   margin: auto;
   border: 2px solid black;
   background-color: rgb(255, 180, 147);
-  width: 75%;
-  padding-bottom: 1.05em;
+  width: 25%;
+  padding-bottom: 1.125em; /*minor second */
   opacity: .9;
 }
 
+.row{
+  display: flex;
+  border: 2px solid black;
+  background-color: rgb(255, 180, 147);
+  width: 65%;
+  margin-left: 17%;
+  opacity: .9;
+}
+
+.sec{
+  flex: 33.33%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.pic{
+  width:50%;
+  min-width:50px;
+}
+
+
 p{
-  font-size: 24px;
+  font-size: 28.4222px; /*major second */
 }
 
 input{

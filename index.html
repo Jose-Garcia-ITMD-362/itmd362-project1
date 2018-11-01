@@ -10,25 +10,38 @@
   </head> 
   <body>
     <h1>Chi-City Photography Club Signup</h1>
-      <form class="form1" method="get" action=" #null" autocomplete="on">
-        <div class="input1">
-          <p><label class="name"> Name </label></p> 
-          <input type="text" placeholder="First Name"> 
+      <fieldset>
+        <form class="form1" method="get" action=" #null" autocomplete="on">
+          <div class="input1">
+            <p><label class="name"> Name </label></p> 
+            <input type="text" placeholder="First Name"> 
+          </div>
+          <div class="input1">
+            <input type="text" placeholder="Last Name"> 
+          </div>
+          <div class="input1"> 
+            <p><label class="email"> Email </label></p> 
+            <input type="email" placeholder="JDoe@missing.com"> 
+          </div>
+          <div class="input1"> 
+            <p><label class="password"> Password </label></p> 
+            <input type="password" placeholder="Password123">
+          </div>
+          <div class="button">
+            <input type="submit" value="Capture!" onclick="return myFunction();"/> 
+          </div>
+        </form>
+      </fieldset>
+	  <div class="row">
+	    <div class="sec">
+          <img class="pic" src="media/dsc_0258-3.jpg" alt="pic">
         </div>
-        <div class="input1">
-          <input type="text" placeholder="Last Name"> 
+        <div class="sec">
+          <img class="pic" src="media/dsc_0291-3.jpg" alt="pic">
         </div>
-        <div class="input1"> 
-          <p><label class="email"> Email </label></p> 
-          <input type="email" placeholder="JDoe@missing.com"> 
+        <div class="sec">
+          <img class="pic" src="media/dsc_0298-3.jpg" alt="pic">
         </div>
-        <div class="input1"> 
-          <p><label class="password"> Password </label></p> 
-          <input type="password" placeholder="Password123">
-        </div>
-        <div class="button">
-          <input type="submit" value="Capture!" onclick="return myFunction();"/> 
-        </div>
-      </form>
+      </div> 
   </body>
 </html> 
